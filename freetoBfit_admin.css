@@ -1,0 +1,277 @@
+body {
+background-color: white;
+}
+
+#adminmenumain, #wpadminbar, #wpfooter {
+    display: none;
+}
+
+
+#ftbf-body {
+     
+    width: 70%; 
+    z-index: 1000; 
+    position: absolute;
+    left: 1%;
+    top: -20px;
+    padding: 10px;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+#ftbf-body h1, #ftbf-edit-class-container h1 {
+    color: #AD0000;
+}
+
+#ftbf-buttonrow-admin {
+    display: flex;
+    flex-flow: row;
+    max-width: 30%;
+}
+
+
+#ftbf-buttonrow-admin-two {
+    display: none;
+    flex-flow: row;
+    max-width: 30%;
+}
+
+.ftbf-button {
+    color: black;
+    padding: 10px;
+    background-color: white;
+    margin: 5px;
+    border: 3px solid #007373;
+    border-radius: 2px;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.ftbf-button:hover {
+    background-color: #007373;
+    color: white;
+}
+
+.ftbf-button-reverse {
+    color: white;
+    padding: 10px;
+    background-color: #007373;
+    margin: 5px;
+    border: 3px solid #FF9F00;
+    border-radius: 2px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.ftbf-button-reverse:hover {
+    background-color: white;
+    color: #007373;
+}
+
+/* block */
+
+#ftbf-list-classes-container {
+    display: block;
+}
+
+/* block */
+
+#ftbf-edit-class-container {
+    display: none;
+    margin-top: 30px;
+    color: black;
+}
+
+#ftbf-edit-class-container input, #ftbf-edit-class-container textarea, #ftbf-edit-class-container label, #ftbf-edit-class-container select {
+    display: block;
+    margin: 5px;
+}
+
+#ftbf-update-blocks, #ftbf-delete-blocks {
+    display: none;
+    flex-flow: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.ftfb-class-title {
+    color:white;
+    background-color: #FF9F00;
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 2px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.ftfb-class-title > form > input {
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+.ftbf-delete-blocks {
+    display: none;
+}
+
+.ftfb-delete-x {
+    position: relative;
+    font-size: .65em;
+    left: 5px;
+}
+
+/* Community List */
+
+#ftbf-switch-admin-panel-two {
+    display: none;
+}
+
+#ftbf-list-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#ftbf-list-row div, .ftbf {
+    margin: 5px;
+    font-weight: 600;
+}
+
+#ftbf-list-row div:nth-of-type(1), .ftbf-community-row div:nth-of-type(1) {
+    min-width: 150px;
+}
+#ftbf-list-row div:nth-of-type(2), .ftbf-community-row div:nth-of-type(2) {
+    min-width: 150px;
+}
+#ftbf-list-row div:nth-of-type(3), .ftbf-community-row div:nth-of-type(3) {
+    min-width: 100px;
+}
+
+#ftbf-list-row div:nth-of-type(4), .ftbf-community-row div:nth-of-type(4) {
+    min-width: 30px;
+    text-align: center;
+}
+#ftbf-list-row div:nth-of-type(5), .ftbf-community-row div:nth-of-type(5) {
+    min-width: 30px;
+    text-align: center;
+}
+#ftbf-list-row div:nth-of-type(6), .ftbf-community-row div:nth-of-type(6) {
+    min-width: 30px;
+    text-align: center;
+}
+#ftbf-list-row div:nth-of-type(7), .ftbf-community-row div:nth-of-type(7) {
+    min-width: 30px;
+    text-align: center;
+}
+#ftbf-list-row div:nth-of-type(8), .ftbf-community-row div:nth-of-type(8) {
+    min-width: 50px;
+    text-align: center;
+}
+#ftbf-list-row div:nth-of-type(9), .ftbf-community-row div:nth-of-type(9) {
+    min-width: 50px;
+    text-align: center;
+}
+
+#ftbf-list-row div:nth-of-type(10), .ftbf-community-row div:nth-of-type(10) {
+    min-width: 50px;
+    text-align: center;
+}
+
+.ftbf-community-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ftbf-community-row div {
+    margin: 5px;
+}
+.ftbf-community-email, .ftbf-community-fname {
+    max-width: 40px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.ftbf-community-email::-webkit-scrollbar, .ftbf-community-fname::-webkit-scrollbar {
+    display: none;
+}
+
+/* Member update */
+
+.ftbf-plugin-popup-x {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+#ftbf-member-wrapper, #ftbf-email-wrapper, #ftbf-delete-wrapper {
+    position: absolute;
+    z-index: 2000;
+    position: fixed;
+	top: 40%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+    width: 250px;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 2px #FF9F00;
+    border-radius: 3px;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+#ftbf-email-wrapper {
+    width: 450px;
+}
+
+#ftbf-member-title, #ftbf-email-title {
+    font-size: 1.75em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Mukta Vaani', sans-serif;
+    color:#AD0000;
+}
+
+#ftbf-email-title {
+    font-size: 1.25em;
+}
+
+.update-member-input, .email-member-input {
+padding: 6px;
+margin: 5px !important;
+border: solid 2px #007373 !important;
+border-radius: 5px !important;
+margin-left: 0px !important;
+font-size: 1.25em;
+line-height: 1;
+}
+
+.email-member-input {
+    font-size: 1.1em;
+    font-weight: 600;
+    border: solid 1px grey !important;
+}
+
+.email-member-input::placeholder {
+    opacity: 1;
+    color: #007373;
+}
+
+.update-member-input:focus {
+    outline: 3px solid #00aeae !important;
+}
+
+.update-member-submit, .email-member-submit {
+    padding: 6px;
+    margin: 5px !important;
+    background-color: #007373;
+    color: white;
+    border-radius: 3px !important;
+    margin-left: 0px !important;
+    border: 0;
+    font-size: 1.15em;
+}
+
+#ftbf-delete-wrapper {
+    color:#AD0000;
+}
+
+
