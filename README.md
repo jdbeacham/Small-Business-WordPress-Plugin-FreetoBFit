@@ -7,5 +7,5 @@ This plugin ...
 🔌 Uses PHPmailer modified for smtp email sending  
 🔌 Uses a Class and static functions for most of the database manipulation  
 🔌 Uses vanilla JavaScript and PHP for handling administration  
-🔌 Uses all recomended security measures
-🚀 Will include a custom event scheduler with email reminders and more!
+🔌 Uses all recomended security measures  
+🚀 Will include a custom event scheduler with email reminders and more!  
